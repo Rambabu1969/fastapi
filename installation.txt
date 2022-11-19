@@ -1,0 +1,12 @@
+1. Download Python from https://www.python.org/downloads (Ref: https://data-flair.training/blogs/install-python-windows/)
+2. Create Project Folder "FastAPIDemo"
+3. Go to FastAPIDemo folder
+4. pip install fastapi
+5. pip install uvicorn
+6. uvicorn app:app --host 0.0.0.0 --port 80
+
+http://127.0.0.1/predict?TimeTaken=2&CorrectAnswers=15
+
+WebAPI Testing with FastAPI
+http://127.0.0.1:8000/docs
+
