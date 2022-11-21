@@ -1,5 +1,6 @@
 1. Download and Install Python from https://www.python.org/downloads 
 (Ref: https://data-flair.training/blogs/install-python-windows/)
+Note: Advanced Options -> Add Python to environment variables (during installation)
 
 2. Create Project Folder "FastAPIDemo"
 3. Go to FastAPIDemo folder
