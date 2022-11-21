@@ -28,7 +28,7 @@ def index():
     return {'message': 'Hello, World'}
 
 @app.get("/predictPrice")
-def getUserInfo(Area: int, BedRooms: int, BathRooms: int):
+def gePredictPrice(Area: int, BedRooms: int, BathRooms: int):
     prediction = rgModel.predict([[Area,BedRooms,BathRooms]])
     return {'Price': prediction[0]}
 
