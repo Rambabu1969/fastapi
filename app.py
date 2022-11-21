@@ -1,5 +1,5 @@
 # install libraries ---
-pip install fastapi uvicorn 
+# pip install fastapi uvicorn 
 
 # 1. Library imports
 import uvicorn
